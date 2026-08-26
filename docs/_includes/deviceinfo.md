@@ -11,8 +11,8 @@
 {% assign build = builds.response[0] %}
 <a href="{{ build.url }}">{{ build.filename }}</a>
 <br>
-{% assign recovery_url = build.url | replace:'UNOFFICIAL','recovery' | replace:'.zip','.img' %}
-{% assign recovery_filename = build.filename | replace:'UNOFFICIAL','recovery' | replace:'.zip','.img' %}
+{% assign recovery_url = build.url | replace:'UNOFFICIAL','recovery' | replace:'.zip','.tar' %}
+{% assign recovery_filename = build.filename | replace:'UNOFFICIAL','recovery' | replace:'.zip','.tar' %}
 <a href="{{ recovery_url }}">{{ recovery_filename }}</a>
 
 ## Device specifications
