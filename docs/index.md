@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LineageOS builds by Linux4
+title: LineageOS builds by Majaahh
 ---
 
 # Supported devices
