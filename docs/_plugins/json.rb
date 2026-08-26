@@ -9,10 +9,15 @@ module JekyllJson
     end
 
     def render(context)
-	if /(.+) (.+)/.match(@text)
-    		context[$1] = JSON context[$2]
-    		return ''
-  	end
+      if /(.+) (.+)/.match(@text)
+        begin
+          context[$1] = JSON.parse(context[$2].to_s)
+        rescue
+          context[$1] = {}
+        end
+        return ''
+      end
+      return ''
     end
   end
 end
