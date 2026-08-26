@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
+url: https://majaahh.github.io
+baseurl: /lineage_OTA
 
 lineage_ota_base_url: https://raw.githubusercontent.com/majaahh/lineage_OTA/master/
