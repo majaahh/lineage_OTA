@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1787773486",
-      "filename": "lineage-23.2-20260826-UNOFFICIAL-a53x.zip",
-      "id": "ed3dcca0597c356fae4207a67e13906732bea97e5e8092514639bcdf322d1e0b",
+      "datetime": "1790425811",
+      "filename": "lineage-23.2-20260926-UNOFFICIAL-a53x.zip",
+      "id": "c71f25df660a9c43c3212e1afebbf3de97d5273d4a136333cfa131c56ba2f987",
       "romtype": "UNOFFICIAL",
-      "size": "1265916531",
-      "url": "https://github.com/majaahh/lineage_OTA/releases/download/a53x-20260826/lineage-23.2-20260826-UNOFFICIAL-a53x.zip",
+      "size": "1230447762",
+      "url": "https://github.com/majaahh/lineage_OTA/releases/download/a53x-20260926/lineage-23.2-20260926-UNOFFICIAL-a53x.zip",
       "version": "23.2"
     }
   ]
